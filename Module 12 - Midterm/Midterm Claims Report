@@ -1,0 +1,18 @@
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
+DATE: 2020/08/21                                                    Daily Insurance Claims                                                                                                              
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
+    POLICY TYPE       POLICY #          INSURED             POLICY EFF   RENEWAL   DDCTBLE PD?  COPAY%  CURRENT BALANCE  DEDUCTIBLE PD     CLAIM AMT      CLAIM PAID                                    
+====================  =======  ===========================  ==========  ==========   =======  ========  ===============   =============   ==========     ==========                                     
+                                                                                                                                                                                                        
+EMPLOYER PRIVATE      1001051  DOMINGUEZ        POMELA      2019/12/31  2020/12/30      N       .02       $100,000.00           $0       $50,000.00       $47,000.00                                    
+EMPLOYER PRIVATE      1001099  DOMINGUEZ        DANILO      2019/12/31  2020/12/30      Y       .02        $50,000.00       $2,000       $20,000.00       $19,600.00                                    
+AFFORDABLE CARE ACT   1001143  NGUYEN           LINA        2019/09/02  2020/09/01      N       .02        $50,000.00           $0       $20,000.00       $18,600.00                                    
+                                                                      ************  Nothing follows  *****************                                                                                  
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        
+Total amount claimed  :                 $90,000.00                                                                                                                                                      
+Total claimed paid   :                  $85,200.00                                                                                                                                                      
+Total claims processed:               3                                                                                                                                                                 
+Total claims rejected:                5                                                                                                                                                                 

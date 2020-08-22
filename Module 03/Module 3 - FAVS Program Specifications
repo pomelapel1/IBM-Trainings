@@ -1,0 +1,19 @@
+Workshop 3.1b.  Create a new COBOL Program.
+
+Potential record layout for FAVS. You will probably
+have to modify field definitions and/or add fields
+to FAV-REC to handle the program's requirements
+
+
+Musical Group Name: 30 bytes Alpha-Numeric
+Number of musicians in the band: 2 digits
+Musical genre - 12 bytes:
+CD cost - less than $1,000 - with two bytes to the right of the decimal place.
+• Cost = CD + Shipping + Tax
+TAX Calculation:
+• If the CD-COST is > $40 the Tax is 6% of the CD-Cost
+• Otherwise the Tax is 10% of the CD-Cost
+Band is still together - 1 Byte: Valid values are: T/F 1 byte
+Specifications for the report. The above non-COBOL requirements format
+is similar to what you might get as part of a "spec package".
+

@@ -1,0 +1,43 @@
+Workshop 8.1a 
+
+You own a musical instrument shop which sells rock
+band gear. You've been asked to respond to an RFP
+(request for proposal) to outfit all the musicians in your
+favorite rock band with instruments, amps, mics…"gear"
+
+The costs for the various instruments are categorized by
+instrument type and within type, instrument quality
+Here is a record-layout you can use for RFP input file ?
+
+Create a report program (FAVRFP) - that responds to the RFP input.
+The report should consist of one detailed-line per valid input record:
+• One/per RFP/Musician - showing the calculated costs with all commercial factors applied
+(Instrument base-price, New/Used, Tax, Shipping, etc.).
+• You can layout the output (report detailed-lines) as you see fit.
+On the next slide are additional programming specifications, as well as a sample output record.
+
+
+Workshop 8.1b - New COBOL Development
+
+1. The output report should use Numeric Edited fields
+2. TAX is a flat 8% on the COST-PER-INSTRUMENT
+3. Shipping cost is as follows:
+    1. IN-COUNTRY: 10% of the calculated Cost-per-Instrument (see below)
+    2. OUT-OF-COUNTRY: 20% of the Cost-per-Instrument
+ 
+4. Prices - per instrument:
+    1. Keyboards: $3,017.89
+    2. Vocals (mics, auto-tuner, etc.): $599.05
+    3. Guitar Rig (guitar + amp): $2,648.99
+    4. Bass Rig (bass + amp): $1,876.10
+    5. Drum Kit: 3,087,22
+    6. Percussion: $799.99
+    
+5. Prices - Instrument-Quality Adjustment:
+    1. Used - 20% off the standard price
+    2. New - standard price
+    3. Premium - 20% more than the standard price
+Calculated COST-PER-INSTRUMENT = 
+             Price + Instrument-Quality Uplift + Tax + Shipping Cost
+             
+              

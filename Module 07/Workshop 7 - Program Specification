@@ -1,0 +1,17 @@
+Workshop 7.2 - Enhancements to FAVRPT - Report Statistics
+
+Modify FAVRPT as follows:
+
+1. Add a WORKING-STORAGE SECTION with fields like the above - to support a few simple report statistics:
+    1. A count of the number of records written; 2. A grand total of all CD sales; 3. The average CD sale.
+    • Utilize Numeric Edited Variable declarations. Your choice: $, Zero Suppression, Commas, etc.
+2. Add the following code to the PROCEDURE DIVISION, after each FAVRPT-REC WRITE statement
+    1. Add +1 to REC-KTR-OUT
+    2. Add the calculated COST-CD to COST-TOTAL
+3. At the end of the program (after all the input records have been read) display the following statistics:
+    1. Number of records
+    2. Gross Revenue (COST-TOTAL-OUT)
+    3. Average CD Sale COST-TOTAL / Number of records
+    
+Optional/Challenge Exercise: Add code to find and calculate the Highest & Lowest CD cost. Print
+them out (DISPLAY them) at the end of the program with an appropriate message.
